@@ -1,0 +1,12 @@
+%h1 Create New User
+
+= form_tag movies_path do
+
+  = label :user, :user_id, 'User-ID'
+  = text_field :user_id, 'User-ID'
+
+  = label :email, :email, 'E-mail'
+  = text_field :email, 'E-mail'
+  
+
+  = submit_tag 'Create My Account'
